@@ -9,9 +9,7 @@
  * @providesModule isEventSupported
  */
 
-'use strict';
-
-var ExecutionEnvironment = require('./ExecutionEnvironment');
+import ExecutionEnvironment from './ExecutionEnvironment';
 
 var useHasFeature;
 if (ExecutionEnvironment.canUseDOM) {
@@ -38,8 +36,10 @@ if (ExecutionEnvironment.canUseDOM) {
  * @license Modernizr 3.0.0pre (Custom Build) | MIT
  */
 function isEventSupported(eventNameSuffix, capture) {
-  if (!ExecutionEnvironment.canUseDOM ||
-      capture && !('addEventListener' in document)) {
+  if (
+    !ExecutionEnvironment.canUseDOM ||
+    (capture && !('addEventListener' in document))
+  ) {
     return false;
   }
 
@@ -60,4 +60,4 @@ function isEventSupported(eventNameSuffix, capture) {
   return isSupported;
 }
 
-module.exports = isEventSupported;
+export default isEventSupported;

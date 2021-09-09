@@ -1,1 +1,1 @@
-module.exports = require('./src/normalizeWheel.js');
+export { default } from './src/normalizeWheel.js';
