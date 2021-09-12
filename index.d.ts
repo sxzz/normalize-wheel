@@ -1,4 +1,4 @@
-declare module 'normalize-wheel' {
+declare module 'normalize-wheel-es' {
     interface NormalizedWheelEvent {
         spinX: number,
         spinY: number,
