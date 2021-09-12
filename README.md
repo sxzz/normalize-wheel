@@ -10,7 +10,7 @@ Just add it as an dependency in npm.
 You can use it as follows:
 
 ```js
-import normalizeWheel from 'normalize-wheel';
+import normalizeWheel from 'normalize-wheel-es';
 
 document.addEventListener('mousewheel', function (event) {
     const normalized = normalizeWheel(event);

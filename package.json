@@ -1,15 +1,14 @@
 {
-  "name": "@sxzz/normalize-wheel-es",
-  "version": "0.0.2",
+  "name": "normalize-wheel-es",
+  "version": "1.0.0",
   "description": "Mouse wheel normalization across multiple multiple browsers.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [
     "mouse wheel",
     "normalization",
-    "browser"
+    "browser",
+    "esm"
   ],
   "author": "Bas Stottelaar",
   "license": "BSD-3-Clause"
