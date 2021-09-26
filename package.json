@@ -2,8 +2,12 @@
   "name": "normalize-wheel-es",
   "version": "1.0.1",
   "description": "Mouse wheel normalization across multiple multiple browsers.",
-  "main": "index.js",
-  "scripts": {},
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
   "keywords": [
     "mouse wheel",
     "normalization",
@@ -11,5 +15,8 @@
     "esm"
   ],
   "author": "Bas Stottelaar",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "tsup": "^5.2.1"
+  }
 }
