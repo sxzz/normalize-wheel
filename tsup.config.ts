@@ -8,4 +8,5 @@ export const tsup: Options = {
   target: "es5",
   format: ["cjs", "esm", "iife"],
   minify: true,
+  legacyOutput: true,
 };

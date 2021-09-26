@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "Mouse wheel normalization across multiple multiple browsers.",
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "module": "dist/esm/index.js",
   "types": "index.d.ts",
   "scripts": {
     "build": "tsup",
