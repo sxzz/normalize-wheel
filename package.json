@@ -5,9 +5,15 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "index.d.ts",
-  "scripts": {
-    "build": "tsup",
-    "release": "standard-version"
+  "author": "Bas Stottelaar",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/sxzz/normalize-wheel-es/issues"
+  },
+  "homepage": "https://github.com/sxzz/normalize-wheel-es#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sxzz/normalize-wheel-es.git"
   },
   "keywords": [
     "mouse wheel",
@@ -15,14 +21,12 @@
     "browser",
     "esm"
   ],
-  "author": "Bas Stottelaar",
-  "license": "BSD-3-Clause",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sxzz/normalize-wheel-es.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sxzz/normalize-wheel-es/issues"
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "release": "standard-version"
   },
   "devDependencies": {
     "standard-version": "9.3.2",
