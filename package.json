@@ -17,6 +17,13 @@
   ],
   "author": "Bas Stottelaar",
   "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sxzz/normalize-wheel-es.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sxzz/normalize-wheel-es/issues"
+  },
   "devDependencies": {
     "standard-version": "^9.3.1",
     "tsup": "^5.2.1"
