@@ -30,6 +30,6 @@
   },
   "devDependencies": {
     "standard-version": "9.3.2",
-    "tsup": "5.11.9"
+    "tsup": "5.12.1"
   }
 }
