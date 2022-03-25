@@ -6,6 +6,13 @@
   "module": "dist/index.mjs",
   "types": "index.d.ts",
   "author": "Bas Stottelaar",
+  "contributors": [
+    {
+      "name": "三咲智子",
+      "email": "sxzz@sxzz.moe",
+      "url": "https://github.com/sxzz"
+    }
+  ],
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/sxzz/normalize-wheel-es/issues"
@@ -29,7 +36,8 @@
     "release": "standard-version"
   },
   "devDependencies": {
+    "@swc/core": "^1.2.160",
     "standard-version": "9.3.2",
-    "tsup": "5.11.9"
+    "tsup": "5.12.1"
   }
 }
