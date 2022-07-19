@@ -39,6 +39,6 @@
   "devDependencies": {
     "@swc/core": "^1.2.218",
     "bumpp": "^8.2.1",
-    "tsup": "^5.12.9"
+    "tsup": "^6.1.3"
   }
 }
