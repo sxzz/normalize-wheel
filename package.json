@@ -29,7 +29,8 @@
     "esm"
   ],
   "files": [
-    "dist"
+    "dist",
+    "index.d.ts"
   ],
   "scripts": {
     "build": "tsup",
