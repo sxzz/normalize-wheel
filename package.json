@@ -37,7 +37,7 @@
     "release": "bumpp"
   },
   "devDependencies": {
-    "@swc/core": "^1.2.218",
+    "@swc/core": "^1.3.56",
     "bumpp": "^9.0.0",
     "tsup": "^6.1.3"
   }
